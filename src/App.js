@@ -1,9 +1,12 @@
-import "./App.css";
+// import "./App.css";
+import UgcPortfolio from "./UgcPortfolio";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <header className="App-header">
+        <UgcPortfolio />
+      </header>
     </div>
   );
 }
